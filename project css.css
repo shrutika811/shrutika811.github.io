@@ -1,0 +1,123 @@
+  *{
+        box-sizing:border-box;
+   }
+   body{
+
+     margin:0px;
+     padding:0px;
+     font:poppins;
+   }
+      #menu{
+        position:relative;
+        width:100%;
+        height:100vh;
+              
+      }
+
+     nav{
+       display:flex;
+       justify-content:space-around;
+       align-items: center;
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       background-color: white;
+       box-shadow:5px 10px 30px rgba(0,0,0,0.02);
+     }
+     .logo img{
+       height:55px;
+       width:55px;
+       padding-top:3px;
+       
+     }
+
+     .menu li a{
+       display: flex;
+       height:40px;
+       line-height: 40px;
+       margin:3px;
+       padding:0px 20px 10px;
+       text-decoration: none;
+       font-size:1em;
+       text-transform:uppercase;
+       font-weight:500;
+       color:gray;
+       
+       
+     }
+     
+     .menu{
+              list-style: none;
+              display: flex;
+       
+     }
+
+      .menu-space{
+             padding-left:250px;
+      }
+
+     .hey{
+            
+             padding-top:7px;
+             margin-left:50px;
+             color:#39bfbd;
+             font-size:1em;
+             font-weight: 500;
+             
+          
+             
+     }
+
+     .content{
+       display:flex;
+       height:90%;
+       width:90%;
+       padding-bottom: 10%;
+       justify-content: space-around;
+       align-items: center;
+      position: absolute;
+       
+     }
+     .img {
+       height:60vh;
+       width:60vw;
+       padding-right: 350px;
+       
+       
+      
+     }
+     .img img{
+
+       width:100%;
+       height:100%;
+       object-fit:contain;
+     }
+     h1{
+        font-size: 3em;
+        color:#1c3548;
+        margin:0px 0px 10px 0px;
+        line-height:50px;
+        width:60%;
+        
+    }
+    
+     p{
+    color:grey;
+    }
+    .button button{
+      width:200px;
+      height:40px;
+     justify-content: center;
+     color:white;
+     background-color: #1db096;
+     border-radius:20px;
+     box-shadow:5px 10px 30px rgba(24, 113, 140, 0.2);
+    }
+    button {
+     font-size: 1em;
+    }
+    .button button:hover{
+      background-color: #23cdaf;
+      transition: all ease 0.2s;
+    }
